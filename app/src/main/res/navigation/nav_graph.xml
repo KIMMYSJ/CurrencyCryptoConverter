@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="at.modoo.currencyconverter.ui.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_converterSelectFragment"
+            app:destination="@id/converterSelectFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/converterSelectFragment"
+        android:name="at.modoo.currencyconverter.ui.ConverterSelectFragment"
+        android:label="fragment_converter_select"
+        tools:layout="@layout/fragment_converter_select" >
+        <action
+            android:id="@+id/action_converterSelectFragment_to_converterFragment"
+            app:destination="@id/converterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/converterFragment"
+        android:name="at.modoo.currencyconverter.ui.ConverterFragment"
+        android:label="fragment_converter"
+        tools:layout="@layout/fragment_converter" />
+</navigation>

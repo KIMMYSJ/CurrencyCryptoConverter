@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CurrencyConverter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryVariant">@color/primaryContainerDark</item>
+        <item name="colorOnPrimary">@color/primaryContainerDark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryDark</item>
+        <item name="colorSecondaryVariant">@color/secondaryContainerDark</item>
+        <item name="colorOnSecondary">@color/onSecondaryContainerDark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

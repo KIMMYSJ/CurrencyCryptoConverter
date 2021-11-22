@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="from_currency_to_crypto">Currency -> Crypto</string>
+    <string name="from_currency_to_currency">Currency -> Currency</string>r
+    <string name="from_crypto_to_currency">Crypto -> Currency</string>
+    <string name="from_crypto_to_crypto">Crypto -> Crypto</string>
+</resources>
